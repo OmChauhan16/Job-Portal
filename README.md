@@ -3,6 +3,8 @@
 A feature-rich Job Portal application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 The application enables employers to post job listings and job seekers to find and apply for their desired roles seamlessly.
 
+[Live Checkout](https://job-portal-fs24.onrender.com/)
+
 ## Features
 
 ### For Job Seekers:

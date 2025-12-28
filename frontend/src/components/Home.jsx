@@ -20,9 +20,11 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <HeroSection />
-      <CategoryCarousel />
-      <LatestJobs />
+      <div className='max-w-7xl mx-auto'>
+        <HeroSection />
+        <CategoryCarousel />
+        <LatestJobs />
+      </div>
       <Footer />
     </div>
   )

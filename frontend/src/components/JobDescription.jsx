@@ -51,8 +51,8 @@ const JobDescription = () => {
     },[jobId,dispatch, user?._id]);
 
     return (
-        <div className='max-w-7xl mx-auto my-10'>
-            <div className='flex items-center justify-between'>
+        <div className='max-w-7xl mx-auto my-10 px-4'>
+            <div className='flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4'>
                 <div>
                     <h1 className='font-bold text-xl'>{singleJob?.title}</h1>
                     <div className='flex items-center gap-2 mt-4'>
